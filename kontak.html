@@ -1,0 +1,59 @@
+<!-- KONTAK -->
+    <section class="section contact" id="kontak">
+      <div class="container contact-box">
+
+        <div>
+          <p class="section-label">LET'S CREATE</p>
+
+          <h2>
+            Siap Bikin Seragam
+            yang Lebih Berkelas?
+          </h2>
+
+          <p>
+            Konsultasikan desain dan kebutuhan kamu dengan tim
+            Nura Store Blitar.
+          </p>
+        </div>
+
+        <!-- GANTI NOMOR WA -->
+        <a
+          href="https://wa.me/6281234567890"
+          target="_blank"
+          class="btn btn-whatsapp"
+        >
+          Chat WhatsApp
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-wrapper">
+      <p>© 2026 Nura Store Blitar</p>
+      <p>Vendor Jaket & Seragam Custom</p>
+    </div>
+  </footer>
+
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    menuToggle.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll(".nav-menu a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+      });
+    });
+  </script>
+
+</body>
+</html>
